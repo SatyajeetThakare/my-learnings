@@ -1,0 +1,6 @@
+Git
+https://sethrobertson.github.io/GitBestPractices/
+
+
+Programming
+https://techbeacon.com/app-dev-testing/35-programming-habits-make-your-code-smell
