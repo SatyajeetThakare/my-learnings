@@ -4,3 +4,28 @@ https://sethrobertson.github.io/GitBestPractices/
 
 Programming
 https://techbeacon.com/app-dev-testing/35-programming-habits-make-your-code-smell
+
+
+// // (RUtl P Ltd Emp GF) || ( ( (Purchase agreement) && (Unilateral NDA) ) || ( (DAIS Emp GF) && (R&MOfferLetter) ) )
+// formulaText: string = `<a type="org" id="58" name="RUtl P Ltd Emp GF" value="58">(RUtl P Ltd Emp GF)</a>&nbsp;<a type="operator" class="||" value="||" name="4.137327061498233">||</a><button class="removeTerm" onclick="removeTerm(4.137327061498233)" type="button" aria-label="Clear" name="4.137327061498233"><mat-icon class="far fa-times-circle"></mat-icon></button>&nbsp;<a type="operator" class="(" value="(" name="1.7718811984343419">(</a><button class="removeTerm" onclick="removeTerm(1.7718811984343419)" type="button" aria-label="Clear" name="1.7718811984343419"><mat-icon class="far fa-times-circle"></mat-icon></button>&nbsp;<a type="operator" class="(" value="(" name="8.293798644523264">(</a><button class="removeTerm" onclick="removeTerm(8.293798644523264)" type="button" aria-label="Clear" name="8.293798644523264"><mat-icon class="far fa-times-circle"></mat-icon></button><a type="contractType" id="5d2ec094c56cda0014ca9e8f" name="Purchase agreement" value="Purchase agreement">(Purchase agreement)</a>&nbsp;<a type="operator" class="&amp;&amp;" value="&amp;&amp;" name="7.501529720692924">&amp;&amp;</a><button class="removeTerm" onclick="removeTerm(7.501529720692924)" type="button" aria-label="Clear" name="7.501529720692924"><mat-icon class="far fa-times-circle"></mat-icon></button><a type="template" id="1" name="Unilateral NDA" value="1">(Unilateral NDA)</a>&nbsp;<a type="operator" class=")" value=")" name="1.0503149718608507">)</a><button class="removeTerm" onclick="removeTerm(1.0503149718608507)" type="button" aria-label="Clear" name="1.0503149718608507"><mat-icon class="far fa-times-circle"></mat-icon></button>&nbsp;<a type="operator" class="||" value="||" name="5.396539349166128">||</a><button class="removeTerm" onclick="removeTerm(5.396539349166128)" type="button" aria-label="Clear" name="5.396539349166128"><mat-icon class="far fa-times-circle"></mat-icon></button>&nbsp;<a type="operator" class="(" value="(" name="1.3502773006075297">(</a><button class="removeTerm" onclick="removeTerm(1.3502773006075297)" type="button" aria-label="Clear" name="1.3502773006075297"><mat-icon class="far fa-times-circle"></mat-icon></button><a type="org" id="56" name="DAIS Emp GF" value="56">(DAIS Emp GF)</a>&nbsp;<a type="operator" class="&amp;&amp;" value="&amp;&amp;" name="4.310487243029549">&amp;&amp;</a><button class="removeTerm" onclick="removeTerm(4.310487243029549)" type="button" aria-label="Clear" name="4.310487243029549"><mat-icon class="far fa-times-circle"></mat-icon></button><a type="contractType" id="5d70fc2394b92c0014d463d7" name="R&amp;MOfferLetter" value="R&amp;MOfferLetter">(R&amp;MOfferLetter)</a>&nbsp;<a type="operator" class=")" value=")" name="2.541320388098891">)</a><button class="removeTerm" onclick="removeTerm(2.541320388098891)" type="button" aria-label="Clear" name="2.541320388098891"><mat-icon class="far fa-times-circle"></mat-icon></button>&nbsp;<a type="operator" class=")" value=")" name="0.6212998958686744">)</a><button class="removeTerm" onclick="removeTerm(0.6212998958686744)" type="button" aria-label="Clear" name="0.6212998958686744"><mat-icon class="far fa-times-circle"></mat-icon></button>`;
+
+Output
+any: [
+   {
+     name: "RUtl P Ltd Emp GF"
+   }, {
+     any: [{
+       all: [{
+          name: "Purchase agreement"
+       }, {
+          name: "Unilateral NDA"
+       }]
+     }, {
+       all: [{
+          name: "DAIS Emp GF"
+       }, {
+          name: "R&MOfferLetter"
+       }]
+     }]
+   }
+];
